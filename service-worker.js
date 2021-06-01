@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/moneyu-react-app-master/precache-manifest.845d2fa94e076b9cd6b82e07c5a044ac.js"
+  "/online-retail-dashboard/precache-manifest.ca03b2146ef4f995b2a64a3d4935b543.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/moneyu-react-app-master/index.html", {
+workbox.routing.registerNavigationRoute("/online-retail-dashboard/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
